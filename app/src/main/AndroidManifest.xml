@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.quanlyshopdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DangnhapActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ChitietsanphamActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".SanphamActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+        android:name=".NhanVienActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+        android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity
+            android:name=".HoadonActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ChitiethoadonActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ChartthongkeActivity"
+            android:label="Quản lý Shop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            />
+
+
+        <!-- <activity -->
+        <!-- android:name=".DangnhapActivity" -->
+        <!-- android:label="@string/title_activity_main2" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+
+        <!--<activity-->
+        <!--android:name=".Main2Activity"-->
+        <!--android:label="@string/title_activity_main2"-->
+        <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
+    </application>
+
+</manifest>

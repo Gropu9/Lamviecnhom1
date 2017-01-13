@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Tên sản phẩm"
+            android:id="@+id/txtsanphamchitiethoadon"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ff0101" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/textView16"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="số lượng"
+            android:id="@+id/txtsoluongchitiethoadon"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#021fff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="giá tiền"
+            android:id="@+id/txtgiatienchitiethoadon"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark" />
+    </TableRow>
+
+</LinearLayout>

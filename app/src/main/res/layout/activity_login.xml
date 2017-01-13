@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="80dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:id="@+id/imageView2"
+            android:src="@drawable/nen" />
+
+        <EditText
+            android:id="@+id/txtuser"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginBottom="10dp"
+
+            android:inputType="textCapWords"
+            android:hint="Tài khoản"
+            android:padding="10dp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginBottom="20dp"
+
+            android:inputType="textPassword"
+            android:hint="Mật khẩu"
+            android:padding="10dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:layout_marginBottom="10dp"
+            android:text="Đăng nhập" />
+
+    </LinearLayout>
+
+</LinearLayout>

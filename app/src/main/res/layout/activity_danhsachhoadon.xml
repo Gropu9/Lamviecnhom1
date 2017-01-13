@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="59dp">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Danh Mục: "
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinnerdanhsachhoadon"
+            android:gravity="bottom"
+            android:spinnerMode="dropdown"
+            android:foregroundGravity="bottom" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:text="Danh Sách Hóa Đơn"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:gravity="bottom|center"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="#a2beff">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Stt"
+            android:id="@+id/txt1"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cửa Hàng"
+            android:id="@+id/txt2"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Tên Khách Hàng"
+            android:id="@+id/txt3"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Ngày nhập"
+            android:id="@+id/txt4"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Ngày Giao"
+            android:id="@+id/txt5"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/textView16"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Giá Tiền"
+            android:id="@+id/txt6"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="ĐãT"
+            android:id="@+id/txt8"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20px" />
+    </TableRow>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewdanhsachhoadon"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="singleChoice"
+        android:scrollingCache="false"
+        android:layoutMode="clipBounds" />
+
+</LinearLayout>

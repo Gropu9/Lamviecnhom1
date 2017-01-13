@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "560599631753",
+    "firebase_url": "https://demoquanlyshop.firebaseio.com",
+    "project_id": "demoquanlyshop",
+    "storage_bucket": "demoquanlyshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560599631753:android:2042840426a1c2bc",
+        "android_client_info": {
+          "package_name": "com.example.administrator.quanlyshopdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560599631753-smviqfltrl18mqo092s6vgjor0l2b98h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1o0WsVipQ0x45gbvuy5F_9r0AS05MpHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

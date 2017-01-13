@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Số Hóa Đơn"
+            android:id="@+id/txtshddonghoadon"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#d5d8ff"
+            android:textSize="14px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cửa hàng"
+            android:id="@+id/txtcuahangdonghoadon"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14px"
+            android:textColor="#ff0400" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Tên khách hàng"
+            android:id="@+id/txtkhachhangdonghoadon"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#d5d8ff"
+            android:textSize="14px"
+            android:textColor="#fb0000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="ngày nhập"
+            android:id="@+id/txtngaynhapdonghoadon"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14px"
+            android:textColor="#013cfe" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="ngày giao"
+            android:id="@+id/txtngaygiaodonghoadon"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#d5d8ff"
+            android:textSize="14px"
+            android:textColor="#013cfe" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/textView16"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="tiền"
+            android:id="@+id/txttiendonghoadon"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14px"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="đã thanh toán"
+            android:id="@+id/txtdathanhtoandonghoadon"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#d5d8ff"
+            android:textSize="14px"
+            android:textColor="#013cfe" />
+    </TableRow>
+</RelativeLayout>

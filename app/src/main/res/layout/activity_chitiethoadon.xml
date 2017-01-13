@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Quay lại"
+            android:id="@+id/btnbackhoadon"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chi Tiết Hóa Đơn"
+            android:id="@+id/txtchitietsanphamhoadon"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textColor="#0e52f1" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tên Khách Hàng:"
+            android:id="@+id/textView11"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Trương Hữu Hiếu"
+            android:id="@+id/txttenkhachhangchitiethoadon"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tên Nhân viên:"
+            android:id="@+id/textView12"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Bùi Thiên Đình"
+            android:id="@+id/txtnhanvienchitiethoadon"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tổng Giá Tiền:"
+            android:id="@+id/textView13"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="100000VNĐ"
+            android:id="@+id/txtgiachitiethoadon"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="#a2beff">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="TÊN SẢN PHẨM"
+            android:id="@+id/txtsanphamchitiethoadon"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/textView16"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="SỐ LƯỢNG"
+            android:id="@+id/txtsoluongchitiethoadon"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="GIÁ TIỀN"
+            android:id="@+id/txtgiatienchitiethoadon"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewdanhsachsanphamhoadon"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="singleChoice"
+        android:scrollingCache="false"
+        android:layoutMode="clipBounds" />
+
+</LinearLayout>

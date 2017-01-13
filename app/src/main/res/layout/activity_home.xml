@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80px" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button11"
+                android:background="@drawable/home"
+                android:layout_weight="20" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button12"
+                android:layout_weight="20"
+                android:background="@drawable/user" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button13"
+                android:layout_weight="20"
+                android:background="@drawable/chat_01" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button14"
+                android:layout_weight="20"
+                android:background="@drawable/charts01" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button15"
+                android:layout_weight="20"
+                android:background="@drawable/tool" />
+        </LinearLayout>
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btnsanpham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản lý danh sách sản phẩm"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btncuahang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản lý danh sách cửa hàng"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="thoát"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

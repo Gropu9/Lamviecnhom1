@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="59dp">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Danh Mục:"
+            android:id="@+id/textView10"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinnernhanvien"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:spinnerMode="dropdown" />
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Danh Sách Nhân Viên"
+        android:id="@+id/textView14"
+        android:gravity="bottom|center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewnhanvien"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff" />
+
+</LinearLayout>
+

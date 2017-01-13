@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tên cửa hàng"
+                android:id="@+id/tvTencuahangdongcuahang"
+                android:textStyle="bold"
+                android:gravity="left|center"
+                android:background="#ffffff"
+                android:textSize="20dp"
+                android:textColor="#fb0000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="12 Thống Nhất Gò Vấp"
+                android:id="@+id/tvDiachidongcuahang"
+                android:gravity="left|center"
+                android:autoText="false"
+                android:background="#ffffff" />
+        </TableRow>
+    </LinearLayout>
+</LinearLayout>
